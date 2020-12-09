@@ -31,7 +31,7 @@ setup(
     python_requires='>=3.7.0',
     install_requires=['requests'],
     extras_require=dict(
-        tests=['pytest', 'requests_mock']
+        tests=['flake8', 'pytest', 'requests_mock']
     ),
     classifiers=[
         'Development Status :: 3 - Alpha',
