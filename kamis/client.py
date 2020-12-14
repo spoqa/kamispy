@@ -86,7 +86,8 @@ class KamisOpenApi:
             {k: v for k, v in asdict(params).items() if v is not None}
         )
         response = self.request(endpoint)
-        if (data := response.get('data')) and isinstance(data, dict):
+        data = response.get('data')
+        if data and isinstance(data, dict):
             parsed_item = []
             for item in data['item']:
                 parsed_item.append(PeriodProductListItemResponse(**item))
