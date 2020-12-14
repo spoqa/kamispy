@@ -107,7 +107,7 @@ API 실행 예제
 다음은 '일별 품목별 도·소매가격정보 API'를 실행하는 예제를 보여줍니다.
 
 이 API는 인증 정보 외에도 추가적인 파라미터가 필요한데, 이러한 경우 파라미터를
-담을 수 있는 ``Parameters`` 클래스가 :mod:`kamis.models` 하위의 해당하는 API
+담을 수 있는 ``Parameters`` 클래스가 ``kamis.models`` 하위의 해당하는 API
 모듈 내부에 정의되어 있습니다.
 
 .. code-block:: pycon
